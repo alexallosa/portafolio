@@ -1,0 +1,149 @@
+body {
+  padding: 10px;
+  0;
+}
+
+.fa {
+  margin-right: 30px;
+}
+
+#navbarText {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 90px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.titlecolors {
+  font-weight: 500;
+  color: #2CD7B1;
+}
+
+.bubble {
+  margin-top: 80px;
+
+}
+
+.checkout {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.em-wave {
+  font-size: 15px;
+}
+
+.text-wrapper {
+  text-align: center;
+}
+
+
+
+.background1 {
+  background-color: #F4E7A7;
+}
+
+.background2 {
+  background-color: #D6CAEA;
+}
+
+.animated-words span:nth-child(2) {
+  animation-delay: 3s;
+  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 90px;
+  color: #A75DE8;
+}
+
+.animated-words span:nth-child(3) {
+  animation-delay: 6s;
+  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 90px;
+  color: #90CA55;
+}
+
+.animated-words span:nth-child(4) {
+  animation-delay: 9s;
+  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 90px;
+  color: #F5A623;
+}
+
+.animated-words span:nth-child(5) {
+  animation-delay: 12s;
+  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 90px;
+  color: #4A90E2;
+}
+
+.animated-words span:nth-child(6) {
+  animation-delay: 15s;
+  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 90px;
+  color: #ED50BF;
+}
+
+.animated-words span {
+  position: absolute;
+  opacity: 0;
+  overflow: hidden;
+  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 90px;
+  color: #2CD7B1;
+  animation: animateWord 18s linear infinite 0s;
+}
+
+@-webkit-keyframes animateWord {
+  0% {
+    opacity: 0;
+  }
+  2% {
+    opacity: 0;
+  }
+  5% {
+    opacity: 1;
+  }
+  17% {
+    opacity: 1;
+  }
+  20% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+
+
+.alexa {
+  float: left;
+  text-align: center;
+}
+
+.alexa2 {
+  margin-top: -30px;
+  text-align: center;
+  float: left;
+}
+
+.alexa3 {
+  float: left;
+  margin-top: 70px;
+  text-align: center;
